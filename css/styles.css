@@ -27,10 +27,11 @@ h1{
 }
 
 
+
 /* Navigation Bar */
 
 .navbar{
-  padding:0 0 4.5rem;
+  padding:0 0 3.5rem;
 }
 
 .navbar-brand{
@@ -52,4 +53,9 @@ h1{
 
 .dlButtons{
   margin: 5% 3% 5% 0;
+}
+
+/* My own code */
+.intro{
+  padding: 10% 0 0;
 }
