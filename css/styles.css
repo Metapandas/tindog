@@ -17,19 +17,7 @@ h3{
   color:white;
 }
 
-#features{
-  padding: 10% 0 0;
-}
 
-#features i{
-  color: #f87;
-  padding: 0 0 2rem;
-  
-  }
-
-#features i:hover{
-  color: #ff4c68;
-}  
 
 .container-fluid{
   padding: 3% 15%;
@@ -68,6 +56,31 @@ h3{
 .nav-link{
      font-size: 1.2rem;
 }
+
+/* Features */
+
+#features{
+  padding: 5% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+
+.feature-box p{
+  color: #8f8f8f;
+}
+
+#features i{
+  color: #f87;
+  padding: 0 0 2rem;
+  
+  }
+
+#features i:hover{
+  color: #ff4c68;
+}  
 
 /* Download Buttons */
 
