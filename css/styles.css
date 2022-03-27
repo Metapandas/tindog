@@ -1,5 +1,6 @@
 h1{
   font-family: 'Montserrat', sans-serif; font-size: 3rem; line-height: 1.5; font-weight: 900;
+  color:white;
 }
 
 #title{
@@ -8,4 +9,30 @@ h1{
 
 .container-fluid{
   padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.rotateimg45 {
+  -webkit-transform:rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+.navbar{
+  margin-bottom: 5rem;
+}
+
+.dlButtons{
+  margin-top: 2rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
 }
