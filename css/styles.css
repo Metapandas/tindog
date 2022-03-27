@@ -6,10 +6,30 @@ h1{
   font-family: 'Montserrat', sans-serif; font-size: 3.5rem; line-height: 1.5; font-weight: 900;
 }
 
+h3{
+  font-weight: bold;
+}
+
+
+
 #title{
   background-color: #ff4c68;
   color:white;
 }
+
+#features{
+  padding: 10% 0 0;
+}
+
+#features i{
+  color: #f87;
+  padding: 0 0 2rem;
+  
+  }
+
+#features i:hover{
+  color: #ff4c68;
+}  
 
 .container-fluid{
   padding: 3% 15%;
