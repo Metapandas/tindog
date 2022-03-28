@@ -6,6 +6,13 @@ h1{
   font-family: 'Montserrat', sans-serif; font-size: 3.5rem; line-height: 1.5; font-weight: 900;
 }
 
+h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3{
   font-weight: bold;
 }
@@ -73,7 +80,7 @@ h3{
 }
 
 #features i{
-  color: #f87;
+  color: #ef8172;
   padding: 0 0 2rem;
   
   }
@@ -81,6 +88,33 @@ h3{
 #features i:hover{
   color: #ff4c68;
 }  
+
+/* Testimonials section */
+
+#testimonials{
+  padding: 5% 15%;
+  text-align: center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding:0 0 3%;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
 
 /* Download Buttons */
 
