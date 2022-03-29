@@ -119,6 +119,20 @@ h3{
   margin:20px 20px 50px;
 }
 
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-btn{
+  width: 100%;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
 /* Download Buttons */
 
 .dlButtons{
@@ -129,3 +143,4 @@ h3{
 .intro{
   padding: 10% 0 0;
 }
+
