@@ -92,7 +92,6 @@ h3{
 /* Testimonials section */
 
 #testimonials{
-  padding: 5% 15%;
   text-align: center;
   background-color:#ef8172;
   color:#fff;
@@ -102,6 +101,10 @@ h3{
   width: 10%;
   border-radius:100%;
   margin: 20px;
+}
+
+.carousel-item{
+  padding: 5% 15%;
 }
 
 /* Press Section */
