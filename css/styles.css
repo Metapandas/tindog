@@ -27,7 +27,7 @@ h3{
 
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 
@@ -39,6 +39,8 @@ h3{
   -ms-transform: rotate(25deg);
   -o-transform: rotate(25deg);
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 
@@ -68,6 +70,8 @@ h3{
 
 #features{
   padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
