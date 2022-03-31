@@ -43,6 +43,22 @@ h3{
   right: 20%;
 }
 
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+}
+
+@media(max-width: 991px){
+
+
+  .title-image{
+    position: static;
+    transform: none;
+  }
+}
+
 
 
 /* Navigation Bar */
@@ -86,12 +102,12 @@ h3{
 #features i{
   color: #ef8172;
   padding: 0 0 2rem;
-  
+
   }
 
 #features i:hover{
   color: #ff4c68;
-}  
+}
 
 /* Testimonials section */
 
@@ -147,4 +163,3 @@ h3{
 .intro{
   padding: 10% 0 0;
 }
-
