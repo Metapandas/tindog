@@ -11,6 +11,17 @@ h1, h2, h3, h4, h5, h6{
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section{
+background-color: #ff4c68;
+color:#fff;
+}
+
+.white-section{
+  background-color: white;
+}
+
 /* Headings */
 .big-heading{
   font-size: 3.5rem;
@@ -47,13 +58,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* title Section */
 
-#title{
-  text-align: left;
-  background-color: #ff4c68;
-  color:white;
-}
-
 #title .container-fluid{
+  text-align: left;
   padding: 3% 15% 7%
 }
 
@@ -69,7 +75,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 @media(max-width: 1028px){
-  #title{
+  #title .container-fluid{
     text-align: center;
   }
 
@@ -85,7 +91,6 @@ h1, h2, h3, h4, h5, h6{
 /* Features */
 
 #features{
-  background-color: #fff;
   position: relative;
 }
 
@@ -115,7 +120,6 @@ h1, h2, h3, h4, h5, h6{
 
 #testimonials{
   background-color:#ef8172;
-  color:#fff;
 }
 
 .testimonial-image{
@@ -166,14 +170,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* Call to Action Section */
 
-#cta{
-  background-color: #ff4c68;
-  color: white;
-}
+
 
 /* Footer Section */
-
-
 
 .footericon{
     margin: 10px;
